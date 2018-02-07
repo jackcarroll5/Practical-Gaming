@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 48463a7b5bf4cb845ae47d4a3eaa5a7d
+timeCreated: 1517508531
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - arenaWallPrefab: {instanceID: 0}
+  - danceFloorPrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
