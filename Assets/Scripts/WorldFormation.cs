@@ -8,15 +8,21 @@ public class WorldFormation : MonoBehaviour
    public int arenaDepth = 60;
     public int arenaWidth = 60;
    public float heightofArenaFloor = 0.0f;
-    FrontPersonInLine control;
+    //FrontPersonInLine control;
     public Transform arenaWallPrefab,danceFloorPrefab;
+    public LayerMask mask;
 
     // Use this for initialization
     void Start () {
 
         createArena();
-		
-	}
+
+        mask = LayerMask.GetMask("Arena Wall");
+
+        mask = ~mask;
+
+
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -42,7 +48,7 @@ public class WorldFormation : MonoBehaviour
     /// </summary>
     internal Vector3 randomEmptypos()
     {
-        Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(1, arenaWidth - 1), heightofArenaFloor, UnityEngine.Random.Range(1, arenaDepth - 1));
+        Vector3 spawnPos = new Vector3(UnityEngine.Random.Range(1, arenaWidth - 1), heightofArenaFloor + 1, UnityEngine.Random.Range(1, arenaDepth - 1));
 
         if (emptyAt(spawnPos))
             return spawnPos;
@@ -50,6 +56,7 @@ public class WorldFormation : MonoBehaviour
             return randomEmptypos();
 
     }
+   
 
     internal bool emptyAt(Vector3 pos)
     {
@@ -57,7 +64,7 @@ public class WorldFormation : MonoBehaviour
 
         //Check for walls
 
-
+       // Physics.OverlapCapsule(pos, 3);
 
 
 
