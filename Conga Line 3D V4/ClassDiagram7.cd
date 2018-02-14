@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorldFormation">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiQAAAAEACAgBAAAAAAACQAAACAAAAAAACAAEAAIIAA=</HashCode>
+      <FileName>Assets\WorldFormation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrontPersonInLine">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="FrontPersonInLine.playerState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FrontPersonInLine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABUQACIAESAAAAABEAAABAAEAAAAAAAIAABAAIAAAAA=</HashCode>
+      <FileName>Assets\FrontPersonInLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickUpGob">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="PickUpGob.itemState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PickUpGob.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAADAACAAAGAAIoEAAAAEgAAAAAAIgAgAAAAAAAA=</HashCode>
+      <FileName>Assets\PickUpGob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreManager">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAAQAAAAAIAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManagerCon" Collapsed="true">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAgCBgAAAAAAoAQABAAQAAAAAAYAAAAAACBIA=</HashCode>
+      <FileName>Assets\GameManagerCon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

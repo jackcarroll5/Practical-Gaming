@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="WorldFormation">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAAACAgAAAAAAAACAAAACAAAAAAACAAAAAIIAA=</HashCode>
+      <FileName>Assets\WorldFormation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreManager">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAACAAAQAAAAAIAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\ScoreManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickUpGob">
+    <Position X="6.25" Y="3" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="PickUpGob.itemState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\PickUpGob.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAEACAAIIEAAAAAgAAAAAAIgAAAAAAAAAA=</HashCode>
+      <FileName>Assets\PickUpGob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManager">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="GameManager.ItemType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\GameManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAAAAAAAAoAQABAAQAAAAABQAAAAAACBIA=</HashCode>
+      <FileName>Assets\GameManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FrontPersonInLine">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FrontPersonInLine.playerState" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\FrontPersonInLine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>ABUQAAIAASAAAAABEAAABAAEAAAAAAAIAABAAIAAAAA=</HashCode>
+      <FileName>Assets\FrontPersonInLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
